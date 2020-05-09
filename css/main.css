@@ -1,0 +1,147 @@
+/* body {
+    text-align: center;
+
+}
+th {
+    background-color: green;
+    color: white;
+}
+
+tbody {
+    color: orange;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex
+} */
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    height: 20vh;
+    width: 50vh;
+    grid-template-rows: 50px 1fr 30px;
+}
+h1 {
+    background-color:#9ec285;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+tr {
+    margin-left: 5px;
+    justify-content: flex-start;
+}
+tbody {
+    color: orange;
+    font-size: 10px;
+}
+#skills {
+    width: 400px;
+}
+.removeSkill {
+    background-color: salmon;
+    width: 20px;
+}
+.addSkill {
+    padding: 1vh 2vh;
+    font-family: 'Ubuntu', sans-serif;
+    color: #9ec285;
+    border: solid #9ec285 2px;
+    font-size: 2.5vh;
+    color: #9ec285;
+    background-color: white;
+}
+button:hover {
+    background-color: #9ec285;
+    color: white;
+    opacity: 50%;
+}
+#submit {
+    border: solid #9ec285 2px;
+    padding: 2vh 5vh;
+    font-family: 'Ubuntu', sans-serif; 
+}  
+.btn {
+    background-color: rgb(210, 109, 106);
+    color: white;
+} 
+
+input {
+    text-align: left;
+    border: solid #9ec285 2px;
+}
+#add{
+    background-color: transparent;
+    border: solid #9ec285 2px;
+    color: #9ec285;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+} 
+button:hover {
+    background-color: #9ec285;
+    color: white;
+    opacity: 50%;
+}
+div {
+    display: flex;
+    justify-content: space-evenly
+} 
+
+
+
+/* body {
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    height: 20vh;
+    width: 50vh;
+    grid-template-rows: 50px 1fr 30px;
+}
+h1 {
+    background-color:#9ec285;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+}
+tr {
+    margin-left: 5px;
+    justify-content: flex-start;
+}
+
+.removeSkill {
+    background-color: salmon;
+    color: white;
+    font-weight: bolder;
+}
+#myInput {
+    border-color: #9ec285;
+    font-size: 20px;
+    color: gray;
+}
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    color: #9ec285;
+    border: solid #9ec285 2px;
+    font-size: 12px;
+    background-color: white;
+}
+    button:hover {
+    background-color: #9ec285;
+    color: white;
+    opacity: 50%;
+}
+div {
+    display: flex;
+    justify-content: space-evenly
+} */
+tbody {
+    color: orange;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
