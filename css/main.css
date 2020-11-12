@@ -1,21 +1,3 @@
-/* body {
-    text-align: center;
-
-}
-th {
-    background-color: green;
-    color: white;
-}
-
-tbody {
-    color: orange;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex
-} */
-
-
 body {
     font-family: 'Ubuntu', sans-serif;
     display: grid;
